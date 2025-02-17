@@ -5,16 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Hamissou MOHAMAN</title>
     <style>
-        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; line-height: 1.5; text-align: justify; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        h1 { text-align: center; color: #333; }
-        h2, h3 { color: #444; cursor: pointer; padding: 10px; background: #e0e0e0; border-radius: 5px; }
-        h2:hover, h3:hover { background: #d4d4d4; }
-        .content { display: none; padding: 10px; background: #fff; border-left: 3px solid #444; margin-top: 5px; border-radius: 5px; }
-        ul { list-style-type: none; padding: 0; }
-        ul li { padding: 5px 0; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .container {
+            max-width: 90%;
+            width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2, h3, h4 {
+            color: #444;
+            cursor: pointer;
+            padding: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+        }
+        h2:hover, h3:hover, h4:hover {
+            background: #d4d4d4;
+        }
+        .content {
+            display: none;
+            padding: 10px;
+            background: #fff;
+            border-left: 3px solid #444;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            h2, h3, h4 {
+                padding: 8px;
+                font-size: 16px;
+            }
+            body {
+                padding: 10px;
+            }
+        }
     </style>
     <script>
         function toggleSection(id) {
@@ -27,7 +83,7 @@
     <div class="container">
         <h1>Portfolio - Hamissou MOHAMAN</h1>
         <p style="text-align:center;"><strong>Docteur en Chimie Physique et Théorique | Passionné par les technologies IT</strong></p>
-    
+        
         <h2 onclick="toggleSection('contact')">📞 Contact</h2>
         <div id="contact" class="content">
             <ul>
@@ -37,7 +93,7 @@
                 <li>📍 Nantes, France</li>
             </ul>
         </div>
-    
+
         <h2 onclick="toggleSection('about')">📌 À propos de moi</h2>
         <div id="about" class="content">
             <h3 onclick="toggleSection('profil')">👨‍🔬 Profil</h3>
@@ -204,7 +260,7 @@ se retrouvent dans le complexe 1:2.</p>
 <ul>
 <li> - Conception de topologies réseau avec Cisco Packet Tracer et GNS3.</li>
 <li><p> - Conguration Active Directory : domaines, OU, GPO, utilisateurs, groupes.</p>
-<p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/tree/main/Groupe%201%20-%20Livrable">Projet Infras</a><br><p><strong>Création d'un portfolio personnel</strong></p>
+<p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/tree/main/Groupe%201%20-%20Livrable">Projet Infras</a><br><h4 style="background: #e0e0e0; padding: 10px; border-radius: 5px;">Création d'un portfolio personnel</h4>
 <p>Création de portfolio en HTML/CSS hébergé sur GitHub</p></p>
 </li>
 </ul>
