@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Hamissou MOHAMAN</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; line-height: 1.5; text-align: justify; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; color: #333; }
+        h2, h3 { color: #444; cursor: pointer; padding: 10px; background: #e0e0e0; border-radius: 5px; }
+        h2:hover, h3:hover { background: #d4d4d4; }
+        .content { display: none; padding: 10px; background: #fff; border-left: 3px solid #444; margin-top: 5px; border-radius: 5px; }
+        ul { list-style-type: none; padding: 0; }
+        ul li { padding: 5px 0; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+    <script>
+        function toggleSection(id) {
+            var content = document.getElementById(id);
+            content.style.display = (content.style.display === 'none' || content.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Portfolio - Hamissou MOHAMAN</h1>
+        <p style="text-align:center;"><strong>Docteur en Chimie Physique et Théorique | Passionné par les technologies IT</strong></p>
+    
+        <h2 onclick="toggleSection('contact')">📞 Contact</h2>
+        <div id="contact" class="content">
+            <ul>
+                <li>📧 hamis.mohaman@gmail.com</li>
+                <li>📞 06 04 55 38 35</li>
+                <li>🔗 <a href="https://www.linkedin.com/in/hamissou-mohaman-48b750127">LinkedIn</a></li>
+                <li>📍 Nantes, France</li>
+            </ul>
+        </div>
+    
+        <h2 onclick="toggleSection('about')">📌 À propos de moi</h2>
+        <div id="about" class="content">
+            <h3 onclick="toggleSection('profil')">👨‍🔬 Profil</h3>
+            <div id="profil" class="content">
+                <p>Docteur en chimie physique et théorique, spécialisé en modélisation et simulation des propriétés physico-chimiques par des approches DFT. Mon expertise repose sur une maîtrise approfondie des outils de chimie quantique appliqués à des problématiques de recherche fondamentale et appliquée. Je conçois et optimise des méthodes de calcul quantique tout en analysant des données complexes pour prédire les propriétés fondamentales des systèmes chimiques. Doté d’une rigueur scientifique et d’une approche analytique approfondie, je résous des problèmes complexes avec précision. Passionné par l’informatique, je développe continuellement mes compétences en IT pour les appliquer à la chimie computationnelle et à la gestion de projets scientifiques complexes. Reconnu pour mon excellence pédagogique, j’ai à cœur de transmettre des concepts complexes de manière claire et didactique, alliant précision scientifique, créativité et innovation.
+            </p>
+            </div>
+    
+            <h3 onclick="toggleSection('motivation')">💡 Ce qui me motive</h3>
+            <div id="motivation" class="content">
+                <ul>
+                    <li><p> * Développer et appliquer des méthodologies avancées pour la modélisation moléculaire afin de résoudre des défis scientifiques et technologiques</p>
+                    </li>
+                    <li><p> * Allier chimie quantique et informatique pour innover dans les domaines de l’énergie, du nucléaire, des matériaux  et des sciences de la vie</p>
+                    </li>
+                    <li><p> * Transmettre et vulgariser les concepts complexes à travers des collaborations scientifiques et des initiatives pédagogiques</p>
+                    </li>
+                    <li><p> * Curiosité insatiable pour la recherche et l’innovation</p>
+                    </li>
+                    <li><p> * Apprentissage continu pour relever des défis complexes</p>
+                    </li>
+                    <li><p> * Contribuer à des projets innovants et interdisciplinaires</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <h3 onclick="toggleSection('competences')">💻 Compétences Techniques</h3>
+            <div id="competences" class="content">
+                <ul>
+                  <li><strong>Chimie</strong> : <ul>
+                  <li>Chimie-Physique</li>
+                  <li>Chimie de Coordination</li>
+                  <li>Chimie des polymères</li>
+                  <li>Chimie Générale</li>
+                  <li>Thermodynamique</li>
+                  </ul>
+                  </li>
+                  <li><strong>Modélisation et simulation moléculaire</strong> :<ul>
+                  <li>Calculs (DFT, CCSD(T), MP2)</li>
+                  <li>Solvatation implicite</li>
+                  <li>Effets relativistes (SR, 2C)</li>
+                  <li>Gaussian</li>
+                  <li>Molden</li>
+                  <li>ChemDraw, Chemsketch</li>
+                  <li>Datacenter </li>
+                  </ul>
+                  </li>
+                  <li><strong>Programmation et balisage</strong> :<ul>
+                  <li>Bash, PowerShell, Python (débutant)</li>
+                  <li>HTML/CSS (débutant),</li>
+                  <li>VS Code, GitHub, Markdown</li>
+                  </ul>
+                  </li>
+                  <li><strong>Outils informatiques</strong> :<ul>
+                  <li>Windows Server, Linux</li>
+                  <li>Active Directory</li>
+                  <li>Réseaux (Routage, DHCP, DNS)</li>
+                  <li>OpenSSH</li>
+                  <li>VMware, VirtualBox</li>
+                  <li>Pack Office </li>
+                  </ul>
+                  </li>
+                  <li><strong>Gestion de projets</strong> :<ul>
+                  <li>Conduite de projets scientifiques et IT</li>
+                  <li>Respect des délais</li>
+                  <li>Comptes rendus réguliers</li>
+                  <li>Méthode agile</li>
+                  </ul>
+                  </li>
+                  <li><strong>Enseignement et Encadrement</strong> :<ul>
+                  <li>Formation de stagiaires</li>
+                  <li>Enseignement universitaire  </li>
+                  </ul>
+                  </li>
+                  <li><strong>Communication scientifique et vulgarisation</strong> :<ul>
+                  <li>Rédaction de rapports techniques</li>
+                  <li>Publication d&#39;articles</li>
+                  <li>Présentations orales et posters</li>
+                  </ul>
+                  </li>
+                  </ul>
+            </div>
+    
+            <h3 onclick="toggleSection('langues')">🌐 Langues</h3>
+            <div id="langues" class="content">
+                <ul>
+                    <li><strong>Français</strong> : Langue maternelle  </li>
+                    <li><strong>Anglais</strong> : Niveau avancé  </li>
+                    <li><strong>Turque</strong> : Niveau avancé </li>
+                </ul>
+            </div>
+    
+            <h3 onclick="toggleSection('interets')">🏅 Centres d’intérêt</h3>
+            <div id="interets" class="content">
+                <ul>
+                    <li><strong>Sciences</strong> : Recherche &amp; Développement, Innovation scientifique et technologique</li>
+                    <li><strong>Informatique</strong> : Développement et Adminstration IT</li>
+                    <li><strong>Sports</strong> : Football, Tennis, Gymnastique</li>
+                    <li><strong>Lecture</strong> : Littérature scientifique et technologique</li>
+                    <li><strong>Gastronomie</strong> : Universelle</li>
+                </ul>
+            </div>
+        </div>
+    
+        <h2 onclick="toggleSection('projets')">🛠️ Projets et Réalisations</h2>
+        <div id="projets" class="content">
+            <h3 onclick="toggleSection('rd')">Projets en Recherche & Développement</h3>
+            <div id="rd" class="content">
+                <h4>Élaboration d’une méthodologie calculatoire spécifique à Ra(II)</h4>
+                <p><em>Laboratoire SUBATECH - Laboratoire CEISAM - Nantes Université, Nantes | 2021 - 2022</em></p>
+                <p>Le manque de compréhension de la chimie des radioéléments métalliques étudiés expérimentalement à des concentrations ultra-traces limite l’optimisation d’agents chélatants spécifiques. Une stratégie est présentée pour établir une méthodologie de calcul peu couteuse, flexible et suffisamment précise pour un radiométal donné afin de compléter les données expérimentales disponibles sur ses propriétés de coordination. Cette stratégie fait appel à des méthodes relativistes de mécanique quantique, et s’attache également à simuler l’influence d’un solvant pour les radiométaux les plus lourds. Cette stratégie a une portée générale, et elle est ici appliquée au cas du radium (ainsi que du baryum). Au final, la précision de la méthodologie établie sur les constantes de complexation de Ra(II) est de 1 en unité logarithmique. Elle pourrait permettre de quantifier avec précision les affinités d’une série de ligands potentiels, ou d’évaluer la sélectivité d’un ligand vis-à-vis d’autres cations présents dans les conditions d’intérêt (problématique médicale, environnementale, industrielle).</p>
+                <p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/M%C3%A9thode%20calculatoire.pdf">Projet mise en place méthodologie quantique</a></p>
+                
+                <h4>Application de la méthodologie : de la médecine à l’environnement</h4>
+                <p><em>Laboratoire SUBATECH - Laboratoire CEISAM - Nantes Université, Nantes | 2022 - 2024</em></p>
+                <p>La méthodologie calculatoire établie précédemment a d’abord été appliquée à l’étude
+d’un agent chélatant, le macropa, qui était alors anticipé comme le meilleur candidat pour
+permettre la vectorisation de 223Ra en médecine nucléaire. Les avantages de la modélisation
+moléculaire pour aider à la conception rationnelle d’agent chélatants efficaces ont ainsi été
+démontrés. En effet, les calculs montrent que la chimie de coordination de Ra2+ ne peut pas
+toujours être prédite à partir des tendances observées avec Ba2+, et en particulier que la
+constante de formation du complexe formé entre le macropa et Ra2+ est quasi 2 ordres de
+grandeur plus faible que celle associée à la complexation de Ba2+. Ce résultat remet en question
+la pertinence de cet agent chélatant pour des applications en médecine nucléaire. Des mesures
+expérimentales sont ensuite venues confirmer les prédictions de modélisation moléculaire,
+conduisant à évaluer d’autres macrocycles comme agents chélatants de Ra(II).</p>
+              
+<p>La méthodologie calculatoire a également été mise à profit concernant une problématique
+environnementale, la distribution et de la disponibilité du radioisotope 226Ra dans les milieux
+naturels. Les ions sulfates jouent un rôle majeur sur la mobilité des ions Ra2+, notamment car
+ils contribuent significativement à la spéciation du radium en solution. En améliorant le 
+traitement des interactions soluté-solvant de la méthodologie utilisée jusque-là,
+il a été possible de confirmer très précisément la valeur de la constante de formation du complexe de
+stœchiométrie 1:1, mesurée par nos collaborateurs du laboratoire SUBATECH.
+Rappelons que les études de radiochimie sont particulièrement complexes à réaliser car les espèces sont,
+d’une part, radioactives et, d’autre part, présentes à des concentrations de l’ordre des ultra-traces.
+Nous avons également abordé la question de l’existence du complexe de stœchiométrie 1:2, en
+prédisant sa stabilité vis-à-vis de [Ba(SO4)2]2- et en montrant par l’analyse des distances
+d’interaction entre Ra2+(aq) et SO42-(aq) que les interactions assurant la stabilité du complexe 1:1
+se retrouvent dans le complexe 1:2.</p>
+                <p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Applications.pdf">Projet Radium pour santé et environnement</a></p>
+
+        <h4 id="-ing-nieur-r-d-chimie-quantique-"><strong>Ingénieur R&amp;D - Chimie Quantique</strong></h4>
+              <p><em>Laboratoire de Chimie Quantique - TÜBİTAK - Université Ondokuz Mayıs, Turquie | 2018 - 2020</em></p>
+              <ul>
+                <li><p>Cette étude examine le mécanisme de la réaction thiol-ène des monomères naturels à l&#39;aide d&#39;outils de chimie quantique. La relation structure-réactivité de ces monomères est analysée à travers les énergies de stabilisation des radicaux (RSEs), les interactions intermoléculaires, le modèle de croisement des courbes, le postulat de Hammond et la relation d&#39;Evans-Polanyi.
+                  Les optimisations de géométrie, les calculs de fréquences et d’énergies sont effectués au niveau de théorie M06-2X/6-31++G(d,p). Un paramètre clé pour la polymérisation thiol-ène, à savoir le rapport entre la constante de vitesse de la réaction de propagation (kp) et celle de la réaction de transfert de chaîne (kct) (kp / kct), est calculé afin d&#39;élucider le mécanisme de la réaction thiol-ène.
+                  À la lumière de ces calculs énergétiques et cinétiques, il est suggéré que le linalol, le d-limonène, le terpinolène et le 𝛾-terpinène sont de bons candidats en tant que monomères naturels pour la polymérisation thiol-ène, en raison de la quasi-égalité de leurs constantes de vitesse (kp / kct ≈ 1). Une autre découverte majeure de cette étude est le potentiel de polymérisation thiol-ène de certains acides gras insaturés spécifiques.  </p>
+                  <p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Thiol-Ene_of_Natural_Monomers.pdf">Projet thiol-ene</a></p>
+                </li>
+              </ul>
+  </div>
+            
+            <h3 onclick="toggleSection('it')">Projets IT</h3>
+            <div id="it" class="content">
+                <p><em>Wild Code School - Nantes | 2024</em></p>
+<h4 id="-scipt-d-automatisation-de-t-ches-administratives-it-"><strong>Scipt d&#39;automatisation de tâches administratives IT</strong></h4>
+<ul>
+<li><p>Script pour la gestion des utilisateurs et des ordinateurs dans un environnement Windows/Linux.</p>
+<p><a href="https://github.com/MaxChristmas/b2g-projet1-g1/blob/main/script_bash_final">Projet Scripting</a></p>
+</li>
+</ul>
+<h4 id="-mise-en-place-d-une-infrastructure-r-seau-s-curis-e-"><strong>Mise en place d&#39;une infrastructure réseau sécurisée</strong></h4>
+<ul>
+<li> - Conception de topologies réseau avec Cisco Packet Tracer et GNS3.</li>
+<li><p> - Conguration Active Directory : domaines, OU, GPO, utilisateurs, groupes.</p>
+<p><a href="https://github.com/Hamis-Mohaman/docs-mohaman/tree/main/Groupe%201%20-%20Livrable">Projet Infras</a><br><p><strong>Création d'un portfolio personnel</strong></p>
+<p>Création de portfolio en HTML/CSS hébergé sur GitHub</p></p>
+</li>
+</ul>
+            </div>
+        </div>
+    
+        <h2 onclick="toggleSection('formation')">🎓 Formation</h2>
+        <div id="formation" class="content">
+            <ul>
+                <li><strong>Administrateur Systèmes et Réseaux Cloud (POEC)</strong> | <em>Wild Code School, Nantes</em>  2024</li>
+<li><strong>Doctorat en Chimie Physique et Théorique</strong> | <em>Nantes Université, France</em> (Janv. 2021 - Mars 2024)  </li>
+<li><strong>Master en Science de l’Ingénierie Chimique</strong> | <em>Université Ondokuz Mayıs, Turquie</em> (2019)  </li>
+<li><strong>Licence en Chimie</strong> | <em>Université des Sciences et Techniques de Masuku, Gabon</em> (2014)  </li>
+<li><strong>Diplôme de langue Turque</strong> | <em>Université Ondokuz Mayıs, Turquie</em> (2016)   </li>
+            </ul>
+        </div>
+    
+        <h2 onclick="toggleSection('liens')">📌 Liens Importants</h2>
+        <div id="liens" class="content">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/hamissou-mohaman-48b750127">LinkedIn</a>  </li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Manuscrit%20de%20th%C3%A8se_Hamissou_3.pdf">Manuscrit these</a></li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/03-Rapport%20th%C3%A8se.pdf">Rapport soutenance</a></li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Tailoring%20an%20efficient%20computational%20methodology.pdf">Article Radium</a></li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Thiol-Ene_of_Natural_Monomers.pdf">Article Polymérisation Thiol-Ene</a></li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/Coursera%20-%20python.pdf">Certificat python</a></li>
+<li><a href="https://github.com/Hamis-Mohaman/docs-mohaman/blob/main/CertificatDaccomplissement_Lessentiel%20de%20la%20virtualisation%20avec%20VMware%20Workstation.pdf">Certificat VMware</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
